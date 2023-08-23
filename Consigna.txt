@@ -1,0 +1,30 @@
+Crear un "cajón de prestamos", donde el usuario irá guardando los libros que le interesan leer.
+
+-Para poder ingresar, el usuario debe estar logueado.
+
+-Se debe poder poner y sacar libros del cajón
+
+-El cajón debe tener un máximo de 4 libros.
+
+-De cada libro, mostraremos al usuario: una imagen, título y cantidad de páginas.
+
+-Calcular fecha para la devolución de los libros e irla mostrando al usuario (1 día por cada 50 páginas).
+
+-Datos requeridos para solicitar el libro (en un modal):
+	-Departamento
+	-Ciudad
+	-Calle
+	-Número
+
+-Agregar un botón para solicitar el prestamo (debe ser un form submit):
+
+-Validación:
+	-No puede faltar ningún dato
+	-El plazo total no puede superar los 15 días
+
+-En caso de  aceptarse el prestamo, mostrarle al usuario un "ticket" con:
+
+	-Nombre del usuario
+	-Libros
+	-Fecha para la devolución
+	-Dirección de envío
